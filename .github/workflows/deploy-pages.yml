@@ -17,6 +17,8 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -47,8 +49,10 @@ jobs:
 
       - name: Include docs
         run: |
-          mkdir -p dist/docs
-          cp -R docs/. dist/docs/
+          if [ -d docs ]; then
+            mkdir -p dist/docs
+            cp -R docs/. dist/docs/
+          fi
 
       - name: Upload static files
         uses: actions/upload-pages-artifact@v4
