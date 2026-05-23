@@ -74,7 +74,8 @@ svg {
   will-change: transform, opacity;
 }
 
-.cursor-filter.is-active {
+.cursor-filter.is-active,
+.cursor-filter--pinned {
   opacity: 1;
 }
 
