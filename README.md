@@ -2,6 +2,8 @@
 
 HTTP 451 "Unavailable For Legal Reasons" を題材にした静的ページです。
 
+公開 URL: https://masashi-desu.github.io/HTTP-451-for-Art-175-JP/
+
 このプロジェクトは、表現の自由や検閲に対する問題意識を示すための抗議のアートです。特定の個人や団体への攻撃ではなく、法や制度によって表現が制限される状況そのものを可視化することを目的としています。
 
 ## Development
